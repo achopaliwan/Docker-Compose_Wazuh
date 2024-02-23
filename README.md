@@ -11,7 +11,7 @@ Here are the minimum requirements for running Kahyangan:
 ## Installation
 ### Running Containers
 
-Navigate to `/wazuh-docker/single-node` folder.
+Navigate to `VWA-Wazuh/` (the cloned folder).
 
 Type `docker-compose -f generate-indexer-certs.yml run --rm generator` to generate an SSL Certificate for Wazuh.
 

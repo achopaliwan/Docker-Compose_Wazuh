@@ -11,9 +11,9 @@ Here are the minimum requirements for running Kahyangan:
 ## Installation
 ### Running Containers
 
-Navigate to `VWA-Wazuh/` (the cloned folder).
+Navigate to `/VWA-Wazuh/` (the cloned folder).
 
-Type `docker-compose -f generate-indexer-certs.yml run --rm generator` to generate an SSL Certificate for Wazuh.
+Type `docker compose -f generate-indexer-certs.yml run --rm generator` to generate an SSL Certificate for Wazuh.
 
 Then, run all the services by typing the following commands in the terminal.
 
@@ -52,7 +52,7 @@ There are 4 vulnerable web app services that can be attacked with certain attack
 
 To integrate a Discord bot, we need to turn off the container first using the `docker compose down --volumes` command.
 
-After that, we can edit the file `/config/wazuh_cluster/wazuh_manager.conf` as follows.
+After that, we can edit the file `/VWA-Wazuh/config/wazuh_cluster/ossec.conf` as follows.
 
 ![](https://i.imgur.com/kdP9YBj.png)
 

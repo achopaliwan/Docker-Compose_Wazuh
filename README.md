@@ -1,5 +1,5 @@
 
-# VWA+Wazuh (Mini Lab SOC) 2024
+# VWA+Wazuh (Mini Lab SOC) Using Docker Compose
 ## Requirements
 Here are the minimum requirements for running Kahyangan:
 - Processor AMD Ryzen 3

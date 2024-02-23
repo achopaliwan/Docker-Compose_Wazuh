@@ -1,5 +1,5 @@
 
-# VWA+Wazuh (Mini Lab SOC)
+# VWA+Wazuh (Mini Lab SOC) 2024
 ## Requirements
 Here are the minimum requirements for running Kahyangan:
 - Processor AMD Ryzen 3
